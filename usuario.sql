@@ -4,7 +4,7 @@ CREATE DATABASE truper;
 CREATE USER 'orlando'@'%' IDENTIFIED BY 'database';
 -- Otorgar permisos al usuario sobre la base de datos
 GRANT ALL PRIVILEGES ON truper.* TO 'orlando'@'%';
-
+-- Guardar cambios
 FLUSH PRIVILEGES;
 
 --Usar la base de datos ---
