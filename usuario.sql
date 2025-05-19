@@ -6,8 +6,7 @@ CREATE USER 'orlando'@'%' IDENTIFIED BY 'database';
 GRANT ALL PRIVILEGES ON truper.* TO 'orlando'@'%';
 -- Guardar cambios
 FLUSH PRIVILEGES;
-
---Usar la base de datos ---
+--Uso de la base de datos---
 USE truper;
 
 
