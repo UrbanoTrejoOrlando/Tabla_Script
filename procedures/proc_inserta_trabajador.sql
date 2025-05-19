@@ -1,3 +1,6 @@
+-- Verificar si el procedure existe
+DROP PROCEDURE IF EXISTS proc_inserta_trabajador;
+
 ---- Creacion del Procedure para insertar u ntrabajador
 DELIMITER //
 CREATE PROCEDURE proc_inserta_trabajador(
