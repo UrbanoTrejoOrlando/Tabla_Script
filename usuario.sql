@@ -1,6 +1,6 @@
 --- Creacion de la base de datos --
 CREATE DATABASE truper;
-
+--Creacion de un usuario
 CREATE USER 'orlando'@'%' IDENTIFIED BY 'database';
 
 GRANT ALL PRIVILEGES ON truper.* TO 'orlando'@'%';
