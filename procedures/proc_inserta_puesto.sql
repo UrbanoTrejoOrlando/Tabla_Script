@@ -11,7 +11,6 @@ BEGIN
 END //
 DELIMITER ;
 
---Eliminar procedure
 DROP PROCEDURE IF EXISTS proc_inserta_puesto;
 
 ---Llamada al procedure-------
