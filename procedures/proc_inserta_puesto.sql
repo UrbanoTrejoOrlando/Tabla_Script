@@ -26,7 +26,6 @@ CALL proc_inserta_puesto('Analista tráfico');
 CALL proc_inserta_puesto('Auditor JR');
 CALL proc_inserta_puesto('Checador');
 
---- Insertar datos de manera normal ---
 INSERT INTO puesto (puesto) VALUES
    ('Auxiliar Invetarios'),
    ('Operador de transporte de personal'),
