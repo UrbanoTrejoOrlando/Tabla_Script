@@ -28,6 +28,5 @@ BEGIN
 END //
 DELIMITER ;
 
---Llamada al procedure
 CALL proc_actualizar_datos(3, 'neto','Archundia','Montiel',4000.00,'canalejas','neto@gmail.com','5555432190',4);
 
