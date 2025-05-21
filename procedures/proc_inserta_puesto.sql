@@ -1,3 +1,4 @@
+--Veirificarsi si el procedure existe
 DROP PROCEDURE IF proc_inserta_puesto;
 
 ------Creacion de procedure para inserta un puesto
