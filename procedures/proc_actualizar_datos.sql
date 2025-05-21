@@ -1,3 +1,4 @@
+---Eliminacion del procedure actualizar
 DROP PROCEDURE IF EXISTS proc_actualizar_datos;
 
 ---Ṕrocedure para actualizar registros
