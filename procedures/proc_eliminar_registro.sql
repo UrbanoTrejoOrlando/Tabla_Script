@@ -1,3 +1,4 @@
+---Eliminacion del procedure
 DROP PROCEDURE IF EXISTS proc_eliminar_registro;
 
 ---Procedure para eliminar un registro de la base de datos
