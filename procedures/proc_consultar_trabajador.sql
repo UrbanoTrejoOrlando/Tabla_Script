@@ -20,5 +20,6 @@ BEGIN
 END //
 DELIMITER ;
 
+--Llamada al procedure
 CALL proc_consultar_trabajador();
 
