@@ -1,4 +1,3 @@
---Eliminar procedure consultar
 DROP PROCEDURE IF EXISTS proc_consultar_trabajador;
 
 --Creacion del procedure
