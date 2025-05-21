@@ -14,6 +14,7 @@ DELIMITER ;
 --Eliminar procedure
 DROP PROCEDURE IF EXISTS proc_inserta_puesto;
 
+---Llamada al procedure-------
 CALL proc_inserta_puesto('Auxiliar Invetarios');
 CALL proc_inserta_puesto('Operador de transporte de personal');
 CALL proc_inserta_puesto('Supervisor de seguridad');
